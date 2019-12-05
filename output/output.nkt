@@ -1,0 +1,92 @@
+
+**********MENU**********
+[1] File control
+[2] Nearest/Farthest Dots
+[3] Cube 
+[4] Sphere 
+[5] Average Dots Distances 
+[0] Exit
+
+
+CHOICE : 1
+
+-->binaryXYZRGB.nkt
+binaryXYZRGB.nkt File succesfully read
+
+-->testVerileri.nkt
+ERROR:
+number of dots in file testVerileri.nkt is not valid.
+
+-->veriler1.nkt
+veriler1.nkt File succesfully read
+
+CHOICE : 2
+
+-->binaryXYZRGB.nkt
+
+Minimum distance uz:0.259797 ,Maximum distance:2.338266
+The farthest points are the 1 and 10 points.Information of dots: 
+1. Dot:101.599998 101.349998 101.099998 1 2 3
+10. Dot:100.250000 100.000000 99.750000 10 20 30
+The nearest points are the 2 and 3 points.Information of dots:
+2. Dot:101.449997 101.199997 100.949997 2 4 6
+3. Dot:101.300003 101.050003 100.800003 3 6 9
+-->veriler1.nkt
+
+Minimum distance uz:0.078754 ,Maximum distance:165.908542
+The farthest points are the 755 and 7088 points.Information of dots: 
+755. Dot:4.981094 0.087787 99.749023 81 178 204
+7088. Dot:94.957733 98.022102 0.558709 10 192 126
+The nearest points are the 4559 and 4600 points.Information of dots:
+4559. Dot:97.079498 33.694393 22.512339 76 44 81
+4600. Dot:97.035797 33.674644 22.449869 182 107 105
+CHOICE : 3
+
+-->binaryXYZRGB.nkt
+Dot information of the Cube:
+100.250000 101.349998 101.099998
+100.250000 101.349998 99.750000
+100.250000 100.000000 99.750000
+100.250000 100.000000 101.099998
+101.599998 101.349998 101.099998
+101.599998 100.000000 101.099998
+101.599998 101.349998 99.750000
+101.599998 100.000000 99.750000
+
+-->veriler1.nkt
+Dot information of the Cube:
+0.015068 99.962685 99.977249
+0.015068 99.962685 -0.006981
+0.015068 -0.021545 -0.006981
+0.015068 -0.021545 99.977249
+99.999298 99.962685 99.977249
+99.999298 -0.021545 99.977249
+99.999298 99.962685 -0.006981
+99.999298 -0.021545 -0.006981
+
+CHOICE : 4
+Sphere's..:
+X value: 5.000000
+Y value: 10.000000
+Z value: 5.000000
+Radius value: 5.000000
+
+-->binaryXYZRGB.nkt
+
+-->veriler1.nkt
+
+3334. Dot:6.828787 13.852322 4.744424 107 38 187
+4008. Dot:7.173759 11.816021 2.335375 228 65 99
+4997. Dot:7.146841 6.830696 6.587299 135 81 250
+5535. Dot:2.445421 8.411303 4.174771 122 230 29
+6158. Dot:7.585028 12.809828 5.150106 167 212 224
+8027. Dot:2.749044 9.999460 3.148459 46 157 87
+CHOICE : 5
+
+-->binaryXYZRGB.nkt
+0.952627
+
+-->veriler1.nkt
+66.096855
+
+CHOICE : 0
